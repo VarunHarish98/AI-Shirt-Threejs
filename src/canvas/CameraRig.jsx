@@ -14,6 +14,7 @@ const CameraRig = ({ children }) => {
 
         //Set initial pos of modal
         let targetPos = [-0.4, 0, 2]
+        //WOrk on all diff sizes
         if (snap.intro) {
             if (isBreakpoint) targetPos = [0, 0, 2]
             if (isMobile) targetPos = [0, 0.2, 2.5]
